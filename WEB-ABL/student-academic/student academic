@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>My College</h2>
+        <p>Dashboard</p>
+        <p>My Subjects</p>
+        <p>Results</p>
+        <p>Attendance</p>
+        <p>Exams</p>
+    </div>
+
+    <div class="main">
+        <h1>Student Academic Dashboard</h1>
+        <p>Welcome, Vinay!</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Student Name</h3>
+                <p>Vinay Kumar</p>
+            </div>
+
+            <div class="card">
+                <h3>Roll Number</h3>
+                <p>26CSE101</p>
+            </div>
+
+            <div class="card">
+                <h3>Semester</h3>
+                <p>1st Semester</p>
+            </div>
+        </div>
+
+        <h2>Attendance</h2>
+        <p>Python - 85%</p>
+        <progress value="85" max="100"></progress>
+
+        <p>Mathematics - 75%</p>
+        <progress value="75" max="100"></progress>
+
+        <p>Web Development - 90%</p>
+        <progress value="90" max="100"></progress>
+
+        <h2>Subject Details</h2>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Faculty</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Mr. Ravi</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>Mrs. Sita</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Web Development</td>
+                <td>Mr. Kumar</td>
+                <td>90</td>
+            </tr>
+        </table>
+
+        <h2>Examination Schedule</h2>
+        <p>Python - 10 November</p>
+        <p>Mathematics - 12 November</p>
+        <p>Web Development - 15 November</p>
+
+        <h2>Announcements</h2>
+        <div class="notice">
+            <p>1. Submit assignments before the deadline.</p>
+            <p>2. Internal exams start next month.</p>
+            <p>3. Attend all classes regularly.</p>
+        </div>
+    </div>
+
+</body>
+</html>
